@@ -6,7 +6,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="./external/css/style.css">
+        <!-------------------------------------------------------->
+        <!-- Firebase 8 Library related CSS, JS, JQuery go here -->
+        <!-------------------------------------------------------->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+
+        <link rel="stylesheet" type="text/css" href="./external/css/style.css">
     </head>
     <body>
         <header>
@@ -50,6 +60,7 @@
                     <img src="./resources/img/linkedin.png" alt="LinkedIn" height="25" width="25">
                 </a>
             </div>
+            <script src="./external/js/firebase_INIT.js"></script>
             <script src="./external/js/script_index.js"></script>
         </footer>
     </body>
