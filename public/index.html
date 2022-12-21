@@ -12,7 +12,7 @@
         <header>
             <img src="" alt="Picture of Joseph Driedger">
             <h1>Joseph (Joey) Driedger</h1>
-            <nav>
+            <nav id="navbar">
                 <ul>
                     <li>About</li>
                     <li>Projects</li>
@@ -21,24 +21,36 @@
             </nav>
         </header>
         <main>
-
+            <h2>Welcome to My Website</h2>
+            <p>Click the buttons down below to access 
+                more information about me.
+            </p>
+            <button onclick="about()">About Me</button>
+            <button onclick="projects()">My Projects</button>
+            <button onclick="posts()">Recent Posts</button>
         </main>
         <footer>
             <!-- Contact Information -->
             <div>
                 <h2>Contact</h2>
                 <p>5133 223A Street<br>Langley, British Columbia<br>Canada V2Y 2T9</p>
-                <p>Phone: <a href="tel:1-604-880-7420">604-880-7420</a></p>
+                <p>Phone: <a href="tel:1-604-880-7420" target="_blank">604-880-7420</a></p>
             </div>
             <div>
                 <!-- Instagram -->
-                <a href="https://www.instagram.com/joseph.driedger/"><img src="./resources/img/instagram.png" alt="Instagram"></a>
+                <a href="https://www.instagram.com/joseph.driedger/" target="_blank">
+                    <img src="./resources/img/instagram.png" alt="Instagram" height="25" width="25">
+                </a>
                 <!-- Twitter -->
-                <a href="https://twitter.com/JosephSDriedger"><img src="./resources/img/twitter.png" alt="Twitter"></a>
+                <a href="https://twitter.com/JosephSDriedger" target="_blank">
+                    <img src="./resources/img/twitter.png" alt="Twitter" height="25" width="25">
+                </a>
                 <!-- LinkedIn -->
-                <a href="https://www.linkedin.com/in/joseph-driedger/"><img src="./resources/img/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.linkedin.com/in/joseph-driedger/" target="_blank">
+                    <img src="./resources/img/linkedin.png" alt="LinkedIn" height="25" width="25">
+                </a>
             </div>
-
+            <script src="./external/js/script_index.js"></script>
         </footer>
     </body>
 </html>

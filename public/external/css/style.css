@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: white;
+    display: inline;
+}
+
+/* Header */
+header {
+    background-color: blue;
+    padding: 1em;
+    color: white;
+}
+
+#navbar > ul {
+    list-style: none;
+}
+
+/* Main */
+
+/* Footer */
+footer {
+    background-color: blue;
+    padding: 1em;
+    color: white;
+}
