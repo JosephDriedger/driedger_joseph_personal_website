@@ -11,8 +11,17 @@ header {
     color: white;
 }
 
+#header-img {
+    color: white;
+}
+
 #navbar > ul {
     list-style: none;
+}
+
+.navbar-item > a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Main */
@@ -21,5 +30,9 @@ header {
 footer {
     background-color: blue;
     padding: 1em;
+    color: white;
+}
+
+#phoneNum {
     color: white;
 }

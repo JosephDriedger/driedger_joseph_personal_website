@@ -1,4 +1,4 @@
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: "AIzaSyAxHk-TrBJ8E30LegxxAHf3JIKzE8qSavw",
   authDomain: "joseph-driedger-s-website.firebaseapp.com",
   projectId: "joseph-driedger-s-website",
@@ -9,6 +9,5 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const app = firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();

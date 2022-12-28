@@ -2,7 +2,10 @@
 <html>
     <head>
         <title>Joseph Driedger's Website</title>
-        <meta name="personal website" content="Joseph Driedger's Website">
+        <meta name="application-name" content="Joseph Driedger's Website">
+        <meta name="description" content="Joseph Driedger's Website">
+        <meta name="author" content="Joseph Driedger">
+        <meta name="keywords" content="Joseph, Driedger, Developer, Full Stack, Game Dev">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,34 +20,45 @@
         <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
 
         <link rel="stylesheet" type="text/css" href="./external/css/style.css">
+        <link rel="stylesheet" type="text/css" href="./external/css/style_index.css">
     </head>
     <body>
         <header>
-            <img src="" alt="Picture of Joseph Driedger">
+            <a href="./index.html"><img id="header-img" src="" alt="Picture of Joseph Driedger"></a>
             <h1>Joseph (Joey) Driedger</h1>
             <nav id="navbar">
                 <ul>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Posts</li>
+                    <li class="navbar-item"><a href="./external/html/about.html">About</a></li>
+                    <li class="navbar-item"><a href="./external/html/projects.html">Projects</a></li>
+                    <li class="navbar-item"><a href="./external/html/posts.html">Posts</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h2>Welcome to My Website</h2>
-            <p>Click the buttons down below to access 
-                more information about me.
-            </p>
-            <button onclick="about()">About Me</button>
-            <button onclick="projects()">My Projects</button>
-            <button onclick="posts()">Recent Posts</button>
+            <div>
+                <h2>Hello, I am <br><span>Joey</span>.</h2>
+                <p>An ambitious full-stack developer eager to learn 
+                    from the world's best software developers. Always ready to lead by example
+                    through hard-work and determination.</p>
+                <button onclick="about()">Learn More</button>
+            </div>
+            <div>
+                <h3>My Projects</h3>
+                <p>Check out some of my projects I've created over the years.</p>
+                <button onclick="projects()">View Projects</button>
+            </div>
+            <div>
+                <h3>Recent Posts</h3>
+                <p>Keep up to date all of my most recent posts.</p>
+                <button onclick="posts()">Check Recent Activity</button>
+            </div>
         </main>
         <footer>
             <!-- Contact Information -->
             <div>
                 <h2>Contact</h2>
                 <p>5133 223A Street<br>Langley, British Columbia<br>Canada V2Y 2T9</p>
-                <p>Phone: <a href="tel:1-604-880-7420" target="_blank">604-880-7420</a></p>
+                <p>Phone: <a id="phoneNum" href="tel:1-604-880-7420" target="_blank">604-880-7420</a></p>
             </div>
             <div>
                 <!-- Instagram -->
