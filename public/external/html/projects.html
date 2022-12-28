@@ -38,18 +38,18 @@
             <button>My GitHub page</button>
             <h2>My Projects</h2>
             <template>
-                <div>
-                    <h3>Title of Project</h3>
-                    <p>Date Published: <span>Today's Date</span></p>
-                    <p>Languages Used: <span>e.g. HTML, CSS, JavaScript</span></p>
-                    <p>Description</p>
-                    <p>Link to Project</p>
-                    <p>Link to Source Code</p>
+                <div class="project">
+                    <h3 class="project-title">Title of Project</h3>
+                    <p>Date Published: <span class="project-date">Today's Date</span></p>
+                    <p>Languages Used: <span class="project-languages">e.g. HTML, CSS, JavaScript</span></p>
+                    <p class="project-description">Description</p>
+                    <p>Link to Project : <span class="project-link"></span></p>
+                    <p>Link to Source Code: <span class="project-source"></span></p>
                 </div>
             </template>
 
-            <div id="insert-project">
-
+            <div id="project-list">
+                <div id="insert-project"></div>
             </div>
         </main>
         <footer>
@@ -75,5 +75,9 @@
             </div>
 
         </footer>
+
+        <!-- Scripts -->
+        <script src="../js/firebase_INIT.js"></script>
+        <script src="../js/projects.js"></script>
     </body>
 </html>
