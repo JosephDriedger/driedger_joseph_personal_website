@@ -13,13 +13,24 @@ header {
 
 #header-img {
     color: white;
+    float: left;
 }
 
 #navbar > ul {
     list-style: none;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    float: right;
+    margin-right: 10px;
 }
 
 .navbar-item > a {
+    float: right;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    background-color: blue;
     color: white;
     text-decoration: none;
 }
